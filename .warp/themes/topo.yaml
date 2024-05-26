@@ -1,0 +1,38 @@
+#  __      ____ _ _ __ _ __  
+#  \ \ /\ / / _` | '__| '_ \ 
+#   \ V  V / (_| | |  | |_) |
+#    \_/\_/ \__,_|_|  | .__/ 
+#                     |_|    
+#
+#  by Fráter Iván ©(2024)
+
+background: "#000000"
+accent: "#ffffff"
+foreground: "#ffffff"
+details: darker
+
+background_image:
+  path: topo.jpg
+  opacity: 50
+
+terminal_colors:
+  normal:
+    black: "#000000"
+    red: "#FF0000"
+    green: "#00FF00"
+    yellow: "#FFFF00"
+    blue: "#0000FF"
+    magenta: "#FF00FF"
+    cyan: "#00FFFF"
+    white: "#ffffff"
+  bright:
+    black: "#8e8e8e"
+    red: "#FA8072"
+    green: "#90EE90"
+    yellow: "#FFFF99"
+    blue: "#00BFFF"
+    magenta: "#DDA0DD"
+    cyan: "#E0FFFF"
+    white: "#feffff"
+
+name: Topo
