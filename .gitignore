@@ -1,1 +1,4 @@
 .DS_Store
+.config/linearmouse
+.config/btop
+.config/thefuck

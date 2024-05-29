@@ -12,7 +12,7 @@ foreground: "#ffffff"
 details: darker
 
 background_image:
-  path: topo.jpg
+  path: ~/.dotfiles/.assets/wallpapers/topo.jpg
   opacity: 50
 
 terminal_colors:

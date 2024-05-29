@@ -7,10 +7,13 @@
 #  by Fráter Iván ©(2024)
 
 # Source aliases.zsh
-[[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
+[[ -f ~/.zsh/aliases.zsh ]] && source ~/.dotfiles/.zsh/aliases.zsh
 
-# Add fuck command
+# Add 'fuck' command
 eval $(thefuck --alias)
 
 # Load Starship prompt
 eval "$(starship init zsh)"
+
+# Launch fastfetch when terminal opens
+fastfetch --load-config ~/.dotfiles/.config/fastfetch/small.jsonc
